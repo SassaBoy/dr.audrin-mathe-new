@@ -203,16 +203,16 @@
           </div>
         </div>
         
-        <div class="highlights-bar">
-          <div class="highlight-item" style="color: white;">
+        <div class="highlights-bar1">
+          <div class="highlight-item1" style="color: white;">
             <span>30+</span>
             <p>Years Experience</p>
           </div>
-          <div class="highlight-item" style="color: white;">
+          <div class="highlight-item1" style="color: white;">
             <span>PhD</span>
             <p>Public Rhetoric</p>
           </div>
-          <div class="highlight-item" style="color: white;">
+          <div class="highlight-item1" style="color: white;">
             <span>12+</span>
             <p>Leadership Roles</p>
           </div>
@@ -1259,9 +1259,10 @@
   <div class="section-header">
     <h2>Let's Talk</h2>
     <!-- <div class="accent-line" style="margin-left: 30px;"></div> -->
-    <p class="section-subtitle" style="margin-top: 20px; color: black; margin-left: 30%;">
-      Whether you're looking to collaborate, consult, or connect — Dr. Mathe is open to meaningful dialogue and impactful conversations.
-    </p>
+<p class="section-subtitle centered-text">
+  Whether you're looking to collaborate, consult, or connect — Dr. Mathe is open to meaningful dialogue and impactful conversations.
+</p>
+
   </div>
   <div class="container contact-wrapper">
     <!-- Left side with image and contact info -->
@@ -1376,22 +1377,7 @@
       document.body.style.overflow = 'auto';
     });
     
-    // Intersection Observer for animations
-    const observerOptions = {
-      threshold: 0.25
-    };
-    
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('in-view');
-        }
-      });
-    }, observerOptions);
-    
-    document.querySelectorAll('.reveal-left, .reveal-right, .reveal-up').forEach(el => {
-      observer.observe(el);
-    });
+  
 
     
 /* Script for the media section functionality */
